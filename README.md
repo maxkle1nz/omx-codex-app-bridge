@@ -1,3 +1,5 @@
+![OMX Codex App Bridge hero](assets/hero-omx-codex-app-en.png)
+
 # OMX Codex App Bridge
 
 Bridge `oh-my-codex` (OMX) into Codex App safely by keeping the real OMX runtime in the shell and the App session honest about what is and is not active.
@@ -9,16 +11,6 @@ This repo ships a single public skill, `omx-codex-app-bridge`, plus a shell wrap
 - avoids global `npm -g` installs
 - avoids upstream `postinstall` side effects by building with `npm --ignore-scripts`
 - gives Codex App a safe contract: App-safe guidance by default, real OMX runtime only when launched from the shell
-
-## Meme previews
-
-English:
-
-![English OMX Codex App meme](assets/meme-omx-codex-app-en.png)
-
-Portuguese:
-
-![Portuguese OMX Codex App meme](assets/meme-omx-codex-app-pt.png)
 
 ## Requirements
 
@@ -187,6 +179,8 @@ The tests use stub `codex` and `omx` executables and verify:
 - auth-gated commands fail cleanly before runtime launch
 
 ## Portugues
+
+![Portuguese OMX Codex App meme](assets/meme-omx-codex-app-pt.png)
 
 Este repositório publica uma skill para integrar o `oh-my-codex` com o Codex App sem fingir que o runtime OMX está ativo quando ele não está.
 
