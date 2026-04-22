@@ -10,6 +10,16 @@ This repo ships a single public skill, `omx-codex-app-bridge`, plus a shell wrap
 - avoids upstream `postinstall` side effects by building with `npm --ignore-scripts`
 - gives Codex App a safe contract: App-safe guidance by default, real OMX runtime only when launched from the shell
 
+## Meme previews
+
+English:
+
+![English OMX Codex App meme](assets/meme-omx-codex-app-en.png)
+
+Portuguese:
+
+![Portuguese OMX Codex App meme](assets/meme-omx-codex-app-pt.png)
+
 ## Requirements
 
 - Codex with the built-in `skill-installer` system skill available
