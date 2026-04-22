@@ -1,0 +1,6 @@
+.DS_Store
+.tmp/
+.codex/
+.omx/
+.omx-codex-app-bridge/
+ingest_roots.json

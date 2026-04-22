@@ -1,0 +1,7 @@
+interface:
+  display_name: "OMX Codex App Bridge"
+  short_description: "Use OMX from Codex App safely."
+  default_prompt: "Use $omx-codex-app-bridge to bootstrap oh-my-codex locally and launch it safely from the shell without touching ~/.codex."
+
+policy:
+  allow_implicit_invocation: true
